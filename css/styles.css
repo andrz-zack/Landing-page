@@ -44,4 +44,10 @@ body {
 }
 .nav {
     --padding-container: 0;
+    height: 100%;
+    align-items: center;
+}
+
+.nav__title {
+    font-weight: 300;
 }
