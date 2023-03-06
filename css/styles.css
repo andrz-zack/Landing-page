@@ -54,11 +54,29 @@ body {
 .nav__title {
     font-weight: 300;
 }
+.nav__items{
+    list-style: none;
+}
 
 .nav__link {
     margin-left: auto;
+    padding: 0;
+}
+.nav__links {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav__menu {
+    margin-left: auto;
+    cursor: pointer;
+    display: none;
 }
 .nav__img {
     display: block;
     width: 30px;
+}
+
+.nav__close {
+    display: none;
 }
