@@ -143,6 +143,7 @@ body {
     margin: 0 auto;
     gap: 1em;
     overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
 }
 
 .about__icons {
@@ -152,4 +153,9 @@ body {
     width: 260px;
     overflow: hidden;
     margin: 0 auto;
+    
+}
+.about__icon {
+    width: 40px;
+    
 }
