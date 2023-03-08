@@ -3,17 +3,14 @@
     const titleQuestions = [...document.querySelectorAll('.questions__title')];
     console.log(titleQuestions)
 
-     titleQuestions.forEach(question =>{
+    titleQuestions.forEach(question =>{
         question.addEventListener('click', ()=>{
             let height = 0;
             let answer = question.nextElementSibling;
             let addPadding = question.parentElement.parentElement;
 
-            addPadding.classList.toggle('questions__padding--add')
-
-
-
-            //le da rotacion al icono arrow.svg
+            addPadding.classList.toggle('questions__padding--add');
+            //para darle rotacion al icono arrow.svg
             question.children[0].classList.toggle('questions__arrow--rotate');
 
 
@@ -22,7 +19,6 @@
             }
 
             answer.style.height = `${height}px`;
-        })
-     })
-
+        });
+    });
 })();
