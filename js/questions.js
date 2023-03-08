@@ -7,7 +7,13 @@
         question.addEventListener('click', ()=>{
             let height = 0;
             let answer = question.nextElementSibling;
+            let addPadding = question.parentElement.parentElement;
 
+            addPadding.classList.toggle('questions__padding--add')
+
+
+
+            //le da rotacion al icono arrow.svg
             question.children[0].classList.toggle('questions__arrow--rotate');
 
 
