@@ -280,6 +280,8 @@ overflow: hidden;
     opacity: 0;
     pointer-events: none;
 }
+
+/* //gracias a este selector se hace la transicion */
 .testimony__body--show{
     pointer-events: unset;
     opacity: 1;
