@@ -309,3 +309,27 @@ overflow: hidden;
     width: 90%;
     cursor: pointer;
 }
+
+/* quinta parte, es decir los questions */
+.questions {
+    text-align: center;
+}
+.questions__container{
+    display: grid;
+    gap: 2em;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.questions__padding{
+    padding: 0;
+    transition: padding .3s;
+    border: 1px solid #5454D4;
+    border-radius: 6px;
+}
+.questions__padding--add{
+    padding-bottom: 30px;
+}
+.questions__answer{
+    padding: 0 30px 0;
+    overflow: hidden;
+}
