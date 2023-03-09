@@ -371,3 +371,15 @@ overflow: hidden;
     margin-bottom: 30px;
 }
 
+/* footer */
+.footer{
+    background-color: #1D293F;
+}
+.footer__title{
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.footer__title, .footer__newsletter{
+    color: #fff;
+}
