@@ -477,10 +477,12 @@ body {
 
 .footer__icons{
     margin-bottom: 10px;
+    
 }
 
 .footer__img{
     width: 30px;
+    background-color: #fff;
 }
 /* aqui empieza el responsive design */
 
